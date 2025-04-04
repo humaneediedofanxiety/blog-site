@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Search, Rss } from "lucide-react";
-import { ThemeToggle } from "@/components/theme-toggle";
 
 export default function Header() {
   return (
@@ -19,7 +18,7 @@ export default function Header() {
             <Link href="/topics" className="px-3 py-2 text-sm font-medium hover:underline hover:text-blue-600">
               Topics
             </Link>
-            <Link href="/tutorials" className="px-3 py-2 text-sm font-medium hover:underline text-blue-600">
+            <Link href="" className="px-3 py-2 text-sm font-medium hover:underline text-blue-600">
               404
             </Link>
             <Link href="/about" className="px-3 py-2 text-sm font-medium hover:underline hover:text-blue-600">

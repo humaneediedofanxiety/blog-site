@@ -1,12 +1,17 @@
 export default function Footer() {
   return (
-    <footer className="border-t py-6">
+    <footer className="border-t bg-background py-8">
       <div className="container mx-auto px-4">
-        <div className="flex flex-col items-center justify-between gap-4 md:flex-row">
-          <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} Mahmudul Hasan. All rights reserved.
+        <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
+          <p className="text-sm font-medium text-foreground">
+            © {new Date().getFullYear()} <span className="font-semibold">Mahmudul Hasan</span>. All rights reserved.
           </p>
-          <p className="text-sm text-muted-foreground">saysayeem.pr@gmail.com</p>
+          <a
+            href="mailto:saysayeem.pr@gmail.com"
+            className="text-sm font-medium text-primary hover:underline transition-colors"
+          >
+            saysayeem.pr@gmail.com
+          </a>
         </div>
       </div>
     </footer>

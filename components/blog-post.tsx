@@ -50,7 +50,7 @@ export function BlogPost({ post, isFullPost = false }: BlogPostProps) {
   }
 
   return (
-    <article className="overflow-hidden rounded-lg border">
+    <article className="overflow-hidden rounded-lg border hover:border-black">
       <div className="flex flex-col md:flex-row">
         <div className="md:w-1/3">
           <Image

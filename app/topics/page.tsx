@@ -23,7 +23,7 @@ export default function TopicsPage() {
             <Link
               key={topic.slug}
               href={`/topics/${topic.slug}`}
-              className="flex flex-col rounded-lg border p-4 transition-colors hover:bg-muted/50"
+              className="flex flex-col rounded-lg border p-4 hover:bg-muted/50 hover:border-black"
             >
               <h2 className="text-xl font-semibold">{topic.name}</h2>
               <p className="mt-2 text-sm text-muted-foreground">
