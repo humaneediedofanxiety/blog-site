@@ -6,6 +6,7 @@ import { blogPosts } from "@/lib/blog-data";
 export default function Home() {
   // Destructure the first post as featured and the rest as other posts
   const [featured, ...otherPosts] = blogPosts;
+  const slicedPosts = otherPosts.slice(0, 12);
 
   return (
     <div className="container mx-auto px-4 py-12">
@@ -36,7 +37,7 @@ export default function Home() {
         {/* Other Posts Section */}
         <div>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-            {otherPosts.map((post) => (
+            {slicedPosts.map((post) => (
               <div key={post.slug} className="border rounded-lg p-6 hover:border-black">
                 <Link href={`/blog/${post.slug}`}>
 

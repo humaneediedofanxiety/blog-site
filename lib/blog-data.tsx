@@ -28,7 +28,7 @@ export const blogPosts: Post[] = [
   firstPost,
 
   // real posts
-  sixthPost,
+  //   sixthPost,
 
   // placeholder
   secondPost,
