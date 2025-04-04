@@ -67,7 +67,7 @@ export default function AboutPage() {
             <h2 className="text-2xl font-semibold">Contact</h2>
             <div className="flex flex-col md:flex-row md:space-x-8">
               {/* Left: Contact Info Card */}
-              <div className="md:w-1/2 rounded-lg border p-6 flex flex-col justify-center hover:border-black">
+              <div className="md:w-1/2 rounded-lg border p-6 flex flex-col justify-center hover:border-black mb-4 md:mb-0">
                 <h3 className="text-xl font-semibold mb-3">Let's Connect!</h3>
                 <p className="text-sm text-muted-foreground mb-4">
                   Whether you are lonely and looking for a friend or simply wanna annoy me, I'm here. Reach out and let's get the conversation started.
