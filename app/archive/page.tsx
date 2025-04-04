@@ -30,7 +30,7 @@ export default function ArchivePage() {
               <h2 className="mb-4 text-2xl font-semibold">{year}</h2>
               <div className="space-y-2">
                 {postsByYear[year].map((post) => (
-                  <div key={post.slug} className="rounded-lg border p-4">
+                  <div key={post.slug} className="rounded-lg border p-4 hover:border-black">
                     <div className="flex flex-col justify-between gap-2 sm:flex-row sm:items-center">
                       <div>
                         <Link href={`/blog/${post.slug}`} className="font-medium hover:text-primary hover:underline">

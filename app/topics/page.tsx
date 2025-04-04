@@ -2,14 +2,14 @@ import Link from "next/link"
 
 // Define some sample topics
 const topics = [
-  { name: "React", slug: "react", count: 2 },
-  { name: "TypeScript", slug: "typescript", count: 3 },
-  { name: "Next.js", slug: "nextjs", count: 2 },
-  { name: "Accessibility", slug: "accessibility", count: 1 },
-  { name: "Performance", slug: "performance", count: 2 },
-  { name: "CSS", slug: "css", count: 1 },
-  { name: "JavaScript", slug: "javascript", count: 3 },
-  { name: "Web Development", slug: "web-development", count: 4 },
+  { name: "Software", slug: "Software", count: 5 },
+  { name: "Books", slug: "Books", count: 0 },
+  { name: "Movies", slug: "Movies", count: 0 },
+  { name: "Personal", slug: "Personal", count: 0 },
+  { name: "Academics", slug: "Academics", count: 0 },
+  { name: "Learning", slug: "Learning", count: 0 },
+  { name: "Fitness", slug: "Fitness", count: 0 },
+  { name: "404", slug: "404", count: 0 },
 ]
 
 export default function TopicsPage() {

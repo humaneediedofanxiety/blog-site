@@ -16,8 +16,8 @@ export interface Post {
 }
 
 const sampleAuthor: Author = {
-  name: "Sarah Chen",
-  avatar: "/placeholder.svg?height=40&width=40",
+  name: "Mahmudul Hasan",
+  avatar: "/stalin.png",
 };
 
 export const blogPosts: Post[] = [

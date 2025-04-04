@@ -3,47 +3,54 @@ import { blogPosts } from "@/lib/blog-data"
 
 // This is a simplified version - in a real app, you'd have proper topic metadata
 const topicMap = {
-  react: {
-    title: "React",
-    description: "Articles about React, hooks, components, and best practices.",
-    posts: ["future-of-web-development", "building-accessible-web-applications"],
+  Software: {
+    title: "Software",
+    description: "Posts about coding, tech, and all things computers.",
+    posts: ["future-of-web-development", "building-accessible-web-applications", "mastering-typescript", "modern-css-techniques", "understanding-react-hooks"],
   },
-  typescript: {
-    title: "TypeScript",
-    description: "Learn about TypeScript, type safety, and advanced typing techniques.",
-    posts: ["mastering-typescript", "future-of-web-development"],
+
+  Books: {
+    title: "Books",
+    description: "Things I have read or maybe wanted to read and a few thoughts.",
+    posts: [],
   },
-  nextjs: {
-    title: "Next.js",
-    description: "Tutorials and guides for building with Next.js framework.",
-    posts: ["future-of-web-development"],
+
+  Movies: {
+    title: "Movies",
+    description: "Cool films, random thoughts, maybe a review or two.",
+    posts: [],
   },
-  accessibility: {
-    title: "Accessibility",
-    description: "Making the web accessible to everyone.",
-    posts: ["building-accessible-web-applications"],
+
+  Personal: {
+    title: "Personal",
+    description: "Trying to become a better version of me, slowly but surely.",
+    posts: [],
   },
-  performance: {
-    title: "Performance",
-    description: "Optimizing web applications for speed and efficiency.",
-    posts: ["future-of-web-development"],
+
+  Academics: {
+    title: "Academics",
+    description: "Mainly school, study tips, and staying sane.",
+    posts: [],
   },
-  javascript: {
-    title: "JavaScript",
-    description: "Core JavaScript concepts, patterns, and techniques.",
-    posts: ["mastering-typescript", "future-of-web-development"],
+
+  Learning: {
+    title: "Learning",
+    description: "Posts about learning techniques, systems and maybe also about extreme challenges.",
+    posts: [],
   },
-  "web-development": {
-    title: "Web Development",
-    description: "General web development topics and best practices.",
-    posts: ["future-of-web-development", "building-accessible-web-applications", "mastering-typescript"],
+
+  Fitness: {
+    title: "Fitness",
+    description: "How to get that dad strength 101.",
+    posts: [],
   },
-  css: {
-    title: "CSS",
-    description: "Styling, layouts, and CSS techniques.",
-    posts: ["building-accessible-web-applications"],
+
+  404: {
+    title: "404",
+    description: "The leftover brain dump zone.",
+    posts: [],
   },
-}
+};
 
 interface TopicPageProps {
   params: {
