@@ -10,12 +10,11 @@ export default function Home() {
   return (
     <div className="container mx-auto px-4 py-12">
       <div className="mx-auto max-w-6xl space-y-12">
-        {/* Featured Post Section */}
         {featured && (
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center border rounded-lg p-8 border-black">
             <div>
               <Link href={`/blog/${featured.slug}`}>
-                <h1 className="text-4xl md:text-5xl font-bold mb-4">{featured.title}</h1>
+                <h1 className="text-3xl md:text-5xl font-bold mb-4">{featured.title}</h1>
                 <p className="text-xl mb-6">{featured.excerpt}</p>
                 <span className="text-blue-600 hover:underline font-medium">
                   Read More &rarr;
