@@ -23,7 +23,7 @@ export default function Home() {
             </div>
             <div className="relative w-full h-72 md:h-80">
               <Image
-                src="/web-development.png"
+                src={featured.coverImage}
                 alt={featured.title}
                 layout="fill"
                 objectFit="cover"

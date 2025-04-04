@@ -4,6 +4,7 @@ import { secondPost } from "./blog/typescript-features";
 import { thirdPost } from "./blog/web-accessibility";
 import { fourthPost } from "./blog/react-hooks";
 import { fifthPost } from "./blog/css-tips";
+import { sixthPost } from "./blog/take-the-leap";
 
 export interface Author {
   name: string;
@@ -25,6 +26,11 @@ export interface Post {
 
 export const blogPosts: Post[] = [
   firstPost,
+
+  // real posts
+  sixthPost,
+
+  // placeholder
   secondPost,
   thirdPost,
   fourthPost,
