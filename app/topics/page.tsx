@@ -2,7 +2,7 @@ import Link from "next/link"
 
 // Define some sample topics
 const topics = [
-  { name: "Software", slug: "Software", count: 5 },
+  { name: "Software", slug: "Software", count: 0 },
   { name: "Books", slug: "Books", count: 0 },
   { name: "Movies", slug: "Movies", count: 0 },
   { name: "Personal", slug: "Personal", count: 0 },

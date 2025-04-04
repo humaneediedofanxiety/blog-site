@@ -25,15 +25,7 @@ export interface Post {
 
 
 export const blogPosts: Post[] = [
-  firstPost,
-
-  // real posts
   sixthPost,
 
-  // placeholder
-  secondPost,
-  thirdPost,
-  fourthPost,
-  fifthPost,
 ];
 
