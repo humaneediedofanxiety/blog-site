@@ -1,10 +1,6 @@
 import type React from "react";
-import { firstPost } from "./blog/future-of-web-dev";
-import { secondPost } from "./blog/typescript-features";
-import { thirdPost } from "./blog/web-accessibility";
-import { fourthPost } from "./blog/react-hooks";
-import { fifthPost } from "./blog/css-tips";
 import { sixthPost } from "./blog/take-the-leap";
+import { seventhPost } from "./blog/i-cant-write";
 
 export interface Author {
   name: string;
@@ -26,6 +22,7 @@ export interface Post {
 
 export const blogPosts: Post[] = [
   sixthPost,
+  seventhPost,
 
 ];
 
