@@ -5,7 +5,6 @@ import { eighthPost } from "./blog/can't-sleep";
 
 export interface Author {
   name: string;
-  avatar: string;
 }
 
 export interface Post {
