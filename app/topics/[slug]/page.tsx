@@ -24,7 +24,7 @@ const topicMap = {
   Personal: {
     title: "Personal",
     description: "Trying to become a better version of me, slowly but surely.",
-    posts: [],
+    posts: ["cant-sleep"],
   },
 
   Academics: {
@@ -42,13 +42,13 @@ const topicMap = {
   Fitness: {
     title: "Fitness",
     description: "How to get that dad strength 101.",
-    posts: [],
+    posts: ["powerlifting-goals"],
   },
 
   404: {
     title: "404",
     description: "The leftover brain dump zone.",
-    posts: [],
+    posts: ["i-can't-write", "take-the-leap"],
   },
 };
 

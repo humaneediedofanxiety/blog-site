@@ -5,11 +5,11 @@ const topics = [
   { name: "Software", slug: "Software", count: 0 },
   { name: "Books", slug: "Books", count: 0 },
   { name: "Movies", slug: "Movies", count: 0 },
-  { name: "Personal", slug: "Personal", count: 0 },
+  { name: "Personal", slug: "Personal", count: 1 },
   { name: "Academics", slug: "Academics", count: 0 },
   { name: "Learning", slug: "Learning", count: 0 },
-  { name: "Fitness", slug: "Fitness", count: 0 },
-  { name: "404", slug: "404", count: 0 },
+  { name: "Fitness", slug: "Fitness", count: 1 },
+  { name: "404", slug: "404", count: 2 },
 ]
 
 export default function TopicsPage() {
