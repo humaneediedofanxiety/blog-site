@@ -3,6 +3,7 @@ import { sixthPost } from "./blog/take-the-leap";
 import { seventhPost } from "./blog/i-cant-write";
 import { eighthPost } from "./blog/can't-sleep";
 import { ninthPost } from './blog/powerlifting-goals';
+import { tenthPost } from './blog/learn-read';
 
 export interface Author {
   name: string;
@@ -23,6 +24,8 @@ export interface Post {
 
 export const blogPosts: Post[] = [
   ninthPost,
+
+  tenthPost,
   eighthPost,
   seventhPost,
   sixthPost,
