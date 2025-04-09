@@ -12,7 +12,7 @@ const topicMap = {
   Books: {
     title: "Books",
     description: "Things I have read or maybe wanted to read and a few thoughts.",
-    posts: [],
+    posts: ["learn-read"],
   },
 
   Movies: {
@@ -36,7 +36,7 @@ const topicMap = {
   Learning: {
     title: "Learning",
     description: "Posts about learning techniques, systems and maybe also about extreme challenges.",
-    posts: [],
+    posts: ["learn-read"],
   },
 
   Fitness: {
@@ -48,7 +48,7 @@ const topicMap = {
   404: {
     title: "404",
     description: "The leftover brain dump zone.",
-    posts: ["i-can't-write", "take-the-leap"],
+    posts: ["i-can't-write", "take-the-leap", "feeling-lazy"],
   },
 };
 
