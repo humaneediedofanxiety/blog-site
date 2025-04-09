@@ -6,7 +6,7 @@ import { blogPosts } from "@/lib/blog-data";
 export default function Home() {
   // Destructure the first post as featured and the rest as other posts
   const [featured, ...otherPosts] = blogPosts;
-  const slicedPosts = otherPosts.slice(0, 12);
+  const slicedPosts = otherPosts.slice(0, 4);
 
   return (
     <div className="container mx-auto px-4 py-12">
