@@ -9,7 +9,7 @@ const topics = [
   { name: "Academics", slug: "Academics", count: 0 },
   { name: "Learning", slug: "Learning", count: 1 },
   { name: "Fitness", slug: "Fitness", count: 1 },
-  { name: "404", slug: "404", count: 3 },
+  { name: "404", slug: "404", count: 4 },
 ]
 
 export default function TopicsPage() {

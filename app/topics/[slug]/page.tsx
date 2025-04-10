@@ -48,7 +48,7 @@ const topicMap = {
   404: {
     title: "404",
     description: "The leftover brain dump zone.",
-    posts: ["i-can't-write", "take-the-leap", "feeling-lazy"],
+    posts: ["i-can't-write", "lonely-man", "take-the-leap", "feeling-lazy"],
   },
 };
 
