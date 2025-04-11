@@ -6,6 +6,7 @@ import { ninthPost } from './blog/powerlifting-goals';
 import { tenthPost } from './blog/learn-read';
 import { eleventhPost } from './blog/feeling-lazy';
 import { twelvethPost } from './blog/lonely'
+import { thirteenPost } from './blog/brainfuck'
 
 export interface Author {
   name: string;
@@ -25,11 +26,12 @@ export interface Post {
 
 
 export const blogPosts: Post[] = [
-  ninthPost,
 
+  thirteenPost,
   twelvethPost,
   eleventhPost,
   tenthPost,
+  ninthPost,
   eighthPost,
   seventhPost,
   sixthPost,
