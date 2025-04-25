@@ -7,6 +7,7 @@ import { tenthPost } from './blog/learn-read';
 import { eleventhPost } from './blog/feeling-lazy';
 import { twelvethPost } from './blog/lonely'
 import { thirteenPost } from './blog/brainfuck'
+import { fuckYouAll } from './blog/i-hate-you'
 
 export interface Author {
   name: string;
@@ -27,6 +28,7 @@ export interface Post {
 
 export const blogPosts: Post[] = [
 
+  fuckYouAll,
   thirteenPost,
   twelvethPost,
   eleventhPost,
